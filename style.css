@@ -2,7 +2,8 @@ body {
     margin: 0;
     background-color: #ef9595;
 }
-.notes{
+
+.notes {
     border-radius: 50%;
     margin-left: 10px
 }
@@ -41,7 +42,7 @@ h2 {
     width: 500px;
     background-color: #FFE5E5;
     border: 2px solid black;
-    
+
 }
 
 button {
@@ -70,7 +71,8 @@ li {
     border: 1px solid black;
     padding: 5px;
 }
-.edit{
+
+.edit {
     background-color: green;
     border-radius: 20%;
     height: 25px;
@@ -79,12 +81,62 @@ li {
     font-size: 15px;
     cursor: pointer;
 }
-.delete{
-    background-color:red;
+
+.delete {
+    background-color: red;
     border-radius: 20%;
     height: 25px;
     font-family: cursive;
     font-weight: bolder;
     font-size: 15px;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    button {
+        background-color: lightblue;
+        border-radius: 20%;
+        height: 40px;
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .edit {
+        background-color: green;
+        border-radius: 20%;
+        height: 40px;
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .delete {
+        background-color: red;
+        border-radius: 20%;
+        height: 40px;
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    li {
+        font-size: xxx-large;
+        margin: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        user-select: none;
+        font-weight: bolder;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    #input-box {
+        height: 50px;
+        margin-bottom: 20px;
+        width: 500px;
+        background-color: #FFE5E5;
+        border: 2px solid black;
+    
+    }
 }
