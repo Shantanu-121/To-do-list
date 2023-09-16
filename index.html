@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&family=Radley:ital@1&display=swap"
+        rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>To Do List !</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Your Personal To-Do List !</h1>
+            <img class="notes" src="./notetaking.gif" height="150px" width="150px">
+        </div>
+        <div class="content" >
+            <h2>Please Add Your Items:</h2>
+            <input type="text" id="input-box" placeholder="Event...">
+            <button onclick="addTask()">Submit</button>
+        </div>
+        <h3>Tasks:</h3>
+        <hr/>
+        <ul id="list-container">
+            <!-- <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
