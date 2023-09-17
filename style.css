@@ -69,7 +69,9 @@ li {
     user-select: none;
     font-weight: bolder;
     border: 1px solid black;
+    border-radius: 0.5cm;
     padding: 5px;
+    background-color: #FFC8C8; 
 }
 
 .edit {
