@@ -1,6 +1,10 @@
+html {
+    margin: 0px;
+    background-color: white;
+}
+
 body {
-    margin: 0;
-    background-color: #ef9595;
+    margin: 0px;
 }
 
 .notes {
@@ -8,138 +12,124 @@ body {
     margin-left: 10px
 }
 
+.subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .heading {
     display: flex;
-    justify-content: center;
-    background-color: #fffadd;
-    height: auto;
+    flex-direction: row;
+    background-color: #FFD2D7;
     align-items: center;
-
 }
 
-h1 {
-    font-family: Bebas Neue, cursive;
+#title {
     font-weight: bold;
     font-size: 120px;
-    margin: 10px;
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    margin: 20px;
 }
 
 h2 {
     font-size: xx-large;
     margin: 15px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h1 {
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 #input-box {
     height: 30px;
     margin-bottom: 20px;
     width: 500px;
-    background-color: white;
-    border: 2px solid black;
-
+    background: #7D7C7C;
+    border: 0px;
+    border-radius: 1cm;
+    color: white;
+    font-size: x-large;
+    font-weight: normal;
 }
 
 button {
-    background-color: lightblue;
-    border-radius: 20%;
-    height: 25px;
-    font-family: Fjalla One;
-    font-weight: bolder;
-    font-size: 15px;
+    border-radius: 0.5cm;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h3 {
     margin-bottom: 0;
     font-size: xx-large;
     margin-left: 15px;
-
 }
 
 li {
+    list-style-type: "\1F43D";
     font-size: x-large;
     margin: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', 'sans-serif';
     user-select: none;
     font-weight: bolder;
-    border: 1px solid black;
-    border-radius: 0.5cm;
     padding: 5px;
-    background-color: #FFE5E5;
 }
 
 .edit {
-    background-color: green;
-    border-radius: 20%;
-    height: 25px;
-    font-family: Fjalla One;
-    font-weight: bolder;
+    border-radius: 1cm;
+    height: fit-content;
+    font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px
 }
 
 .delete {
     background-color: red;
-    border-radius: 20%;
-    height: 25px;
-    font-family: Fjalla One;
-    font-weight: bolder;
+    border-radius: 1cm;
+    height: fit-content;
+    font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px
 }
 
-@media (max-width: 1200px) {
-    button {
-        background-color: lightblue;
-        border-radius: 20%;
-        height: 40px;
-        font-family: Fjalla One;
-        font-weight: bolder;
-        font-size: 25px;
-        cursor: pointer;
-    }
+.content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    justify-content: center;
+    background-color: #F1EFEF;
+    border-radius: 1cm;
+}
 
-    .edit {
-        background-color: green;
-        border-radius: 20%;
-        height: 40px;
-        font-family: Fjalla One;
-        font-weight: bolder;
-        font-size: 25px;
-        cursor: pointer;
-    }
+ul {
+    margin: 0px;
+}
 
-    .delete {
-        background-color: red;
-        border-radius: 20%;
-        height: 40px;
-        font-family: Fjalla One;
-        font-weight: bolder;
-        font-size: 25px;
-        cursor: pointer;
-    }
-    li {
-        font-size: xxx-large;
-        margin: 10px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        user-select: none;
-        font-weight: bolder;
-        border: 1px solid black;
-        padding: 5px;
-        background-color:#FFE5E5;
-   }
-    #input-box {
-        height: 50px;
-        margin-bottom: 20px;
-        width: 500px;
-        background-color: white;
-     border: 2px solid black;
-    
+@media (max-width: 1212px) {
+    .content {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        justify-content: center;
+        background-color: #F1EFEF;
+        border-radius: 1cm;
     }
 }
