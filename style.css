@@ -127,7 +127,7 @@ ul {
         margin-top: 10px;
         display: flex;
         flex-direction: column;
-        width: max-content;
+        width: fit-content;
         justify-content: center;
         background-color: #F1EFEF;
         border-radius: 1cm;
