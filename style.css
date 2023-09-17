@@ -49,7 +49,7 @@ button {
     background-color: lightblue;
     border-radius: 20%;
     height: 25px;
-    font-family: cursive;
+    font-family: Fjalla One;
     font-weight: bolder;
     font-size: 15px;
     cursor: pointer;
@@ -76,7 +76,7 @@ li {
     background-color: green;
     border-radius: 20%;
     height: 25px;
-    font-family: cursive;
+    font-family: Fjalla One;
     font-weight: bolder;
     font-size: 15px;
     cursor: pointer;
@@ -86,7 +86,7 @@ li {
     background-color: red;
     border-radius: 20%;
     height: 25px;
-    font-family: cursive;
+    font-family: Fjalla One;
     font-weight: bolder;
     font-size: 15px;
     cursor: pointer;
@@ -97,7 +97,7 @@ li {
         background-color: lightblue;
         border-radius: 20%;
         height: 40px;
-        font-family: cursive;
+        font-family: Fjalla One;
         font-weight: bolder;
         font-size: 25px;
         cursor: pointer;
@@ -107,7 +107,7 @@ li {
         background-color: green;
         border-radius: 20%;
         height: 40px;
-        font-family: cursive;
+        font-family: Fjalla One;
         font-weight: bolder;
         font-size: 25px;
         cursor: pointer;
@@ -117,7 +117,7 @@ li {
         background-color: red;
         border-radius: 20%;
         height: 40px;
-        font-family: cursive;
+        font-family: Fjalla One;
         font-weight: bolder;
         font-size: 25px;
         cursor: pointer;
